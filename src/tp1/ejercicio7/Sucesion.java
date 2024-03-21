@@ -29,7 +29,7 @@ public class Sucesion {
 			System.out.println("el numero de la lista es:"+res);
 		}
 	}
-	public static void obtenerSucesion(int n,ArrayList<Integer>lista){
+	private static void obtenerSucesion(int n,ArrayList<Integer>lista){
 		if (n!=1){		
 			if (n % 2==0){
 				n=n/2;
